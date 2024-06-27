@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSONPlaceholder API</title>
+    <style>
+        .hidden { display: none; }
+        .result { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>JSONPlaceholder API Actions</h1>
+    <button onclick="getAllPosts()">Get All Posts</button>
+    <button onclick="getPost10()">Get Post with ID 10</button>
+    <button onclick="createNewPost()">Create New Post</button>
+    <button onclick="replacePost12()">Replace Post with ID 12</button>
+    <button onclick="updatePost12Title()">Update Title of Post with ID 12</button>
+    <button onclick="deletePost12()">Delete Post with ID 12</button>
+  
+
+    <div id="result" class="result hidden"></div>
+
+    <script src="restActivity.js"></script>
+</body>
+</html>
